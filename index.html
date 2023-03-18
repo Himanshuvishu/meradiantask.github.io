@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg shadow  mb-5 bg-white rounded  " style="background-color:white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.meridean.org/frontend/images/logo.png" alt="Bootstrap" width="150" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Why Meridean</a>
+            </li>
+
+            <li><a class="nav-link" href="#">Let's Begin</a></li>
+            <li><a class="nav-link" href="#"> Our Achievements</a></li>
+          </ul>
+
+          <form class="d-flex mx-1" role="search">
+            <button class="btn  fre-demo-b" type="button" data-bs-toggle="modal" data-bs-target="#cModal">Book A Free
+              Demo</button>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <h1 class="h-heading mt-2">Meridean Overseas Education Consultants</h1>
+          <div class="row">
+            <div class="col-sm-12">
+              <img class="img-fluid my-4"
+                src="https://api.universalstudentliving.com/wp-content/uploads/2023/02/shutterstock_1390269164-1.jpg" alt=""
+                height="350vh" srcset="">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- form -->
+        <div class=" col-sm-12 col-lg-6">
+          <form class="p-3" style="background-color: white;">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="text" class="form-control" id="exampleInputuser" aria-describedby="textHelp">
+            </div>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-6">
+                  <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="col-6">
+                  <label for="exampleInputEmail1" class="form-label">Email </label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 ">
+              <label for="exampleInputEmail1" class="form-label disable"> City/State</label>
+              <input type="text" class="form-control" id="exampleInputuser" aria-describedby="textHelp">
+            </div>
+
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-6">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Country</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Course Level</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-6">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Subject</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Admission Year</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3 ">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Admission Year</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <button type="submit" class="btn f-btn my-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 div's -->
+    <!-- <div class="container d-flex justi d-flex justify-content-between my-5">
+     <div class="box shadow"><img src="" alt="" class="img-fluid"></div>
+     <div class="box shadow"><img src="" alt="" class="img-fluid"></div>
+     <div class="box shadow"><img src="" alt="" class="img-fluid"></div>
+     <div class="box shadow"><img src="" alt="" class="img-fluid"></div>
+     <div class="box shadow"><img src="" alt="" class="img-fluid"></div>
+     <div class="box shadow"><img src="" alt="" class="img-fluid"></div>
+    
+    </div> -->
+    <div class="container ">
+      <div class="row my-3 d-flex justify-content-between don">
+        <div class="col-lg-2 col-sm-6  my-3  box shadow "><img
+            src="https://www.msvu.ca/wp-content/uploads/2020/05/SA2019_MSVUlogo-300x168.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-2   my-3 box shadow "><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMywSO2GJaA0ZFlC_neMwt6WHJ1yaosB55k0em61a_-VeErrkg0QgsUf96Vl9S8bKRdw&usqp=CAU"
+            alt="" class="img-fluid">
+          </div>
+        <div class="col-lg-2   my-3  box shadow "><img
+            src="https://mms.businesswire.com/media/20210219005185/en/860330/22/UCW_LOGO-%28002%29.jpg" alt=""
+            class="img-fluid">
+          </div>
+        <div class="col-lg-2   my-3 box shadow "><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Whitireia.JPG/1200px-Whitireia.JPG" alt=""
+            height="80px" class="">
+          </div>
+        <div class="col-lg-2  my-3 box shadow "><img
+            src="https://www.academiceducation.co.uk/wp-content/uploads/2021/04/albarty-university.png" alt=""
+            class="img-fluid">
+          </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <main>
+    <section class="section-one">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-4  col-sm-12 my-5">
+            <h3 class="dp ">Digital Presence</h3>
+            <p class="my-3" style="font-weight: bold;">Relevant & Researched - Our digital content is always up-to-date
+              and credible.</p>
+            <p style="text-align: justify;">Meridean Overseas regularly creates high-quality content to cater to its digital audience. We host
+              India's most popular Overseas Education Youtube channel with 100K+ subscribers.</p>
+            <h1 class="n11">110770</h1>
+
+              <div class="row my-4">
+              <div class="col-4"><a class="link-dark" href=""><img
+                    src="https://w7.pngwing.com/pngs/319/614/png-transparent-flag-of-italy-graphy-italy-flag-sphere-magenta-thumbnail.png"
+                    class="bi" width="24" height="24">
+
+                  </img>
+                </a>
+                <p>study in Italy</p>
+              </div>
+              <div class="col-4"><a class="link-dark" href=""><img
+                    src="https://w7.pngwing.com/pngs/64/392/png-transparent-canada-flag-flag-of-canada-national-flag-canada-day-canada-flag-flag-leaf-canada-thumbnail.png"
+                    class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                  </img>
+                </a>
+                <p>Canada Visa Immigration</p>
+              </div>
+              <div class="col-4"><a class="link-dark" href=""><img
+                    src="https://w7.pngwing.com/pngs/666/76/png-transparent-flag-of-the-united-states-national-flag-usa-flag-flag-logo-united-states-thumbnail.png"
+                    class="bi" width="24" height="24">
+                  <use xlink:href="#Facebook"></use>
+                  </img>
+                </a>
+                <p>USA Visa & Immigration</p>
+              </div>
+            </div>
+          </div>
+          <!-- div-2 -->
+          <div class="col-lg-4   col-sm-12 my-5"><img class="img-fluid"
+              src="https://img.freepik.com/premium-psd/silver-play-button-youtube-mockup_106244-888.jpg" class="img-fluid"  alt=""  >
+          </div>
+
+          <div class="col-lg-4  col-sm-12 my-5">
+            <ul class="sm">
+              <li>
+                <a class="link-dark" href="https://www.instagram.com/">
+                <img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
+                    class="bi" width="24" height="24">
+                </a>
+                <h4 style="color:#0c51a0">8843</h4>
+                <p>Active Followers</p>
+              </li>
+              <hr>
+              <li>
+                <a class="link-dark" href="https://twitter.com/">
+                  <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
+                    class="" width="24" height="24">
+        
+                  </img>
+                </a>
+                <h4 style="color:#0c51a0">9862</h4>
+                <p>Active Followers</p>
+              </li>
+              <hr>
+              <li>
+                <a class="link-dark" href="https://www.facebook.com/"><img
+                    src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png"
+                    class="bi" width="24" height="24">
+              
+                  </img>
+                </a>
+                <h4 style="color:#0c51a0">4116</h4>
+                <p>Active Followers</p>
+
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

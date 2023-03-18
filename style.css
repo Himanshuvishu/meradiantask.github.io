@@ -1,0 +1,83 @@
+
+header{
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210326/pngtree-baby-blue-cartoon-decorative-background-image_594850.jpg"); */
+    height: 150%;
+    background-color: #e7eef5;
+    /* width: fit-content; */
+     /* block-size: fit-content; */
+}
+.nav-link{
+    font-size: bolder;
+    color: #0c51a0;
+    
+}
+.nav-link:hover{
+    color:rgb(255, 174, 0);
+  
+
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.fre-demo-b{
+    background-color: #0c51a0;
+    color: white;
+    border-radius: 0;
+}
+.h-heading{
+    color: #0c51a0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+.box{
+    background-color: white;
+    width: 200px;
+    height: 99px; 
+    border-radius: 6px;
+}
+/* @media  (orientation:portrait) {
+    .box{display:none} 
+    
+} */
+@media screen and (max-width:850px) {
+    header{height: 50%;} 
+    
+}
+@media screen and (max-width:400px){
+    .don{ margin: 0 0 0 20px;
+         }
+
+}
+
+  
+.f-btn{
+    background-color: #a00c0c;
+    color: white;
+    border-radius: 0;
+    width: 100px;
+}
+.dp{
+    color: #0c51a0;
+    font-weight: bolder;
+   
+    text-decoration: underline  #a00c0c 2.5px ;
+}
+.n11{
+    color: #a00c0c ;
+    font-weight: bolder;
+}
+h4{
+    font-weight: bolder;
+}
+.sm li{
+    list-style-type: none;
+    /* float: right; */
+}
+form{
+    border-radius: 9px;
+    
+}
+
+
+ 
